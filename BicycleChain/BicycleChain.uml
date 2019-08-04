@@ -53,16 +53,20 @@
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_Iv4_8bFiEeme559QxmclrQ" name="PreviousLinik" type="_Ih3GoLFEEeme559QxmclrQ" association="_Iv3x0LFiEeme559QxmclrQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_MWZIMLFEEeme559QxmclrQ" name="OuterInChain">
+    <packagedElement xmi:type="uml:Class" xmi:id="_MWZIMLFEEeme559QxmclrQ" name="OuterInChain" isAbstract="true">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_JkG4sLYkEemof7u3x02SQA" name="Property2"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_fB5P8LYkEemof7u3x02SQA" name="Type"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_NNioELYlEem12aEGjyR5NA" name="InnerToOuterRoller" type="_cc7G4LFEEeme559QxmclrQ" association="_NNeWoLYlEem12aEGjyR5NA">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NNioELYlEem12aEGjyR5NA" name="InnerToOuter" type="_eZ04cLFEEeme559QxmclrQ" association="_NNeWoLYlEem12aEGjyR5NA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNj2MLYlEem12aEGjyR5NA" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNkdQLYlEem12aEGjyR5NA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXZsAbYlEem12aEGjyR5NA" name="OuterToInnerRoller" type="_cc7G4LFEEeme559QxmclrQ" association="_eXYd4LYlEem12aEGjyR5NA">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXZsAbYlEem12aEGjyR5NA" name="OuterToInnerRoller" type="_fyYm0LFEEeme559QxmclrQ" association="_eXYd4LYlEem12aEGjyR5NA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eXaTELYlEem12aEGjyR5NA" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eXaTEbYlEem12aEGjyR5NA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rrUncraZEem12aEGjyR5NA" name="Rollers" type="_cc7G4LFEEeme559QxmclrQ" association="_rrUAYLaZEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rrUnc7aZEem12aEGjyR5NA" value="2"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rrVOgLaZEem12aEGjyR5NA" value="2"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Pe3VALFEEeme559QxmclrQ" name="RightOuter">
@@ -87,8 +91,16 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3DczYLFhEeme559QxmclrQ" value="1"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_cc7G4LFEEeme559QxmclrQ" name="RollerPinInChain">
+    <packagedElement xmi:type="uml:Class" xmi:id="_cc7G4LFEEeme559QxmclrQ" name="RollerPinInChain" isAbstract="true">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_SxKeILYkEemof7u3x02SQA" name="Type"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_N5OQobaZEem12aEGjyR5NA" name="RightOuter" type="_Pe3VALFEEeme559QxmclrQ" association="_N5NCgLaZEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N5O3sLaZEem12aEGjyR5NA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N5O3sbaZEem12aEGjyR5NA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_a6S6QraZEem12aEGjyR5NA" name="LeftOuter" type="_RNahgLFEEeme559QxmclrQ" association="_a6STMLaZEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a6ThULaZEem12aEGjyR5NA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a6ThUbaZEem12aEGjyR5NA" value="1"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_eZ04cLFEEeme559QxmclrQ" name="InnerToOuter">
       <generalization xmi:type="uml:Generalization" xmi:id="_vZdCULFEEeme559QxmclrQ" general="_cc7G4LFEEeme559QxmclrQ"/>
@@ -100,7 +112,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_xx72cLFhEeme559QxmclrQ" name="RightOuter" type="_Pe3VALFEEeme559QxmclrQ" association="_xx6oULFhEeme559QxmclrQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_3DczYbFhEeme559QxmclrQ" name="LeftOuter" type="_RNahgLFEEeme559QxmclrQ" association="_3DblQLFhEeme559QxmclrQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_kFVCsLFEEeme559QxmclrQ" name="InnerInChain">
+    <packagedElement xmi:type="uml:Class" xmi:id="_kFVCsLFEEeme559QxmclrQ" name="InnerInChain" isAbstract="true">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_uZKYErFGEeme559QxmclrQ" name="InnerPlate" type="_ehPkgLFDEeme559QxmclrQ" association="_uZJxALFGEeme559QxmclrQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uZKYE7FGEeme559QxmclrQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uZKYFLFGEeme559QxmclrQ" value="1"/>
@@ -228,17 +240,50 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Iv4Y4bFiEeme559QxmclrQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_NNeWoLYlEem12aEGjyR5NA" memberEnd="_NNioELYlEem12aEGjyR5NA _NNkdQbYlEem12aEGjyR5NA">
+    <packagedElement xmi:type="uml:Association" xmi:id="_NNeWoLYlEem12aEGjyR5NA" memberEnd="_NNioELYlEem12aEGjyR5NA _NNkdQbYlEem12aEGjyR5NA" navigableOwnedEnd="_NNkdQbYlEem12aEGjyR5NA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NNhZ8LYlEem12aEGjyR5NA" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NNiBALYlEem12aEGjyR5NA" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_NNkdQbYlEem12aEGjyR5NA" name="outerinchain" type="_MWZIMLFEEeme559QxmclrQ" association="_NNeWoLYlEem12aEGjyR5NA"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_NNkdQbYlEem12aEGjyR5NA" name="Outers" type="_MWZIMLFEEeme559QxmclrQ" association="_NNeWoLYlEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4G9eMLaYEem12aEGjyR5NA" value="2"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4G_6cLaYEem12aEGjyR5NA" value="2"/>
+      </ownedEnd>
     </packagedElement>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_eXYd4LYlEem12aEGjyR5NA" memberEnd="_eXZsAbYlEem12aEGjyR5NA _eXaTErYlEem12aEGjyR5NA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eXZE8LYlEem12aEGjyR5NA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eXZsALYlEem12aEGjyR5NA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_eXaTErYlEem12aEGjyR5NA" name="outerinchain" type="_MWZIMLFEEeme559QxmclrQ" association="_eXYd4LYlEem12aEGjyR5NA"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_eXYd4LYlEem12aEGjyR5NA" memberEnd="_eXZsAbYlEem12aEGjyR5NA _eXaTErYlEem12aEGjyR5NA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eXZE8LYlEem12aEGjyR5NA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eXZsALYlEem12aEGjyR5NA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_eXaTErYlEem12aEGjyR5NA" name="Outers" type="_MWZIMLFEEeme559QxmclrQ" association="_eXYd4LYlEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cr-VELaZEem12aEGjyR5NA" value="2"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CsAxULaZEem12aEGjyR5NA" value="2"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_N5NCgLaZEem12aEGjyR5NA" memberEnd="_N5OQobaZEem12aEGjyR5NA _N5O3sraZEem12aEGjyR5NA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N5NpkLaZEem12aEGjyR5NA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N5OQoLaZEem12aEGjyR5NA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_N5O3sraZEem12aEGjyR5NA" name="Rollers" type="_cc7G4LFEEeme559QxmclrQ" association="_N5NCgLaZEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Svh4QLaZEem12aEGjyR5NA" value="2"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SvlioLaZEem12aEGjyR5NA" value="2"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_a6STMLaZEem12aEGjyR5NA" memberEnd="_a6S6QraZEem12aEGjyR5NA _a6ThUraZEem12aEGjyR5NA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a6S6QLaZEem12aEGjyR5NA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a6S6QbaZEem12aEGjyR5NA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_a6ThUraZEem12aEGjyR5NA" name="Rollers" type="_cc7G4LFEEeme559QxmclrQ" association="_a6STMLaZEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eTnmgLaZEem12aEGjyR5NA" value="2"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eTqCwLaZEem12aEGjyR5NA" value="2"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_rrUAYLaZEem12aEGjyR5NA" memberEnd="_rrUncraZEem12aEGjyR5NA _rrVOgbaZEem12aEGjyR5NA" navigableOwnedEnd="_rrVOgbaZEem12aEGjyR5NA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rrUncLaZEem12aEGjyR5NA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rrUncbaZEem12aEGjyR5NA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_rrVOgbaZEem12aEGjyR5NA" name="Outers" type="_MWZIMLFEEeme559QxmclrQ" association="_rrUAYLaZEem12aEGjyR5NA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vhPJELaZEem12aEGjyR5NA" value="2"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vhSMYLaZEem12aEGjyR5NA" value="2"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
 </uml:Model>
