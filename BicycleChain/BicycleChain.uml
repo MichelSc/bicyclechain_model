@@ -60,7 +60,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNj2MLYlEem12aEGjyR5NA" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNkdQLYlEem12aEGjyR5NA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXZsAbYlEem12aEGjyR5NA" name="OuterToInnerRoller" type="_fyYm0LFEEeme559QxmclrQ" association="_eXYd4LYlEem12aEGjyR5NA">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXZsAbYlEem12aEGjyR5NA" name="OuterToInner" type="_fyYm0LFEEeme559QxmclrQ" association="_eXYd4LYlEem12aEGjyR5NA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eXaTELYlEem12aEGjyR5NA" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eXaTEbYlEem12aEGjyR5NA" value="1"/>
       </ownedAttribute>
@@ -118,9 +118,9 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uZKYFLFGEeme559QxmclrQ" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_KJC8ULYlEem12aEGjyR5NA" name="Type"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_n23aoLFEEeme559QxmclrQ" name="RightInner">
-      <generalization xmi:type="uml:Generalization" xmi:id="_xes3kLFEEeme559QxmclrQ" general="_kFVCsLFEEeme559QxmclrQ"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_n23aoLFEEeme559QxmclrQ" name="RightInner">
+        <generalization xmi:type="uml:Generalization" xmi:id="_xes3kLFEEeme559QxmclrQ" general="_kFVCsLFEEeme559QxmclrQ"/>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_o80WELFEEeme559QxmclrQ" name="LeftInner">
       <generalization xmi:type="uml:Generalization" xmi:id="_zaOJELFEEeme559QxmclrQ" general="_kFVCsLFEEeme559QxmclrQ"/>
@@ -240,7 +240,7 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Iv4Y4bFiEeme559QxmclrQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_NNeWoLYlEem12aEGjyR5NA" memberEnd="_NNioELYlEem12aEGjyR5NA _NNkdQbYlEem12aEGjyR5NA" navigableOwnedEnd="_NNkdQbYlEem12aEGjyR5NA">
+    <packagedElement xmi:type="uml:Association" xmi:id="_NNeWoLYlEem12aEGjyR5NA" memberEnd="_NNioELYlEem12aEGjyR5NA _NNkdQbYlEem12aEGjyR5NA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NNhZ8LYlEem12aEGjyR5NA" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NNiBALYlEem12aEGjyR5NA" key="nature" value="UML_Nature"/>
       </eAnnotations>
