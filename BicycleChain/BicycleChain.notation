@@ -2367,7 +2367,7 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_7LSHALbpEem12aEGjyR5NA" type="PapyrusUMLClassDiagram" name="AssociationGeneralization" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_9z2rwLbpEem12aEGjyR5NA" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_9z2rwLbpEem12aEGjyR5NA" type="Class_Shape" fillColor="10011046">
       <children xmi:type="notation:DecorationNode" xmi:id="_9z2rwrbpEem12aEGjyR5NA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_9z2rw7bpEem12aEGjyR5NA" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_9z2rxLbpEem12aEGjyR5NA" y="15"/>
@@ -2393,7 +2393,7 @@
       <element xmi:type="uml:Class" href="BicycleChain.uml#_MWZIMLFEEeme559QxmclrQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z2rwbbpEem12aEGjyR5NA" x="180" y="140"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_90Bq4LbpEem12aEGjyR5NA" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_90Bq4LbpEem12aEGjyR5NA" type="Class_Shape" fillColor="10011046">
       <children xmi:type="notation:DecorationNode" xmi:id="_90Bq4rbpEem12aEGjyR5NA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_90Bq47bpEem12aEGjyR5NA" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_90Bq5LbpEem12aEGjyR5NA" y="15"/>
@@ -2419,7 +2419,7 @@
       <element xmi:type="uml:Class" href="BicycleChain.uml#_cc7G4LFEEeme559QxmclrQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90Bq4bbpEem12aEGjyR5NA" x="640" y="120"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_BnUWULbqEem12aEGjyR5NA" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_BnUWULbqEem12aEGjyR5NA" type="Class_Shape" fillColor="10265827">
       <children xmi:type="notation:DecorationNode" xmi:id="_BnU9YLbqEem12aEGjyR5NA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_BnU9YbbqEem12aEGjyR5NA" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_BnU9YrbqEem12aEGjyR5NA" y="15"/>
@@ -2445,7 +2445,7 @@
       <element xmi:type="uml:Class" href="BicycleChain.uml#_RNahgLFEEeme559QxmclrQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BnUWUbbqEem12aEGjyR5NA" x="100" y="463"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_BnmDILbqEem12aEGjyR5NA" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_BnmDILbqEem12aEGjyR5NA" type="Class_Shape" fillColor="10265827">
       <children xmi:type="notation:DecorationNode" xmi:id="_BnmqMLbqEem12aEGjyR5NA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_BnmqMbbqEem12aEGjyR5NA" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_BnmqMrbqEem12aEGjyR5NA" y="15"/>
@@ -2471,7 +2471,7 @@
       <element xmi:type="uml:Class" href="BicycleChain.uml#_eZ04cLFEEeme559QxmclrQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BnmDIbbqEem12aEGjyR5NA" x="660" y="460"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_DBwUALbqEem12aEGjyR5NA" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_DBwUALbqEem12aEGjyR5NA" type="Class_Shape" fillColor="10265827">
       <children xmi:type="notation:DecorationNode" xmi:id="_DBw7ELbqEem12aEGjyR5NA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_DBw7EbbqEem12aEGjyR5NA" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_DBw7ErbqEem12aEGjyR5NA" y="15"/>
@@ -2497,7 +2497,7 @@
       <element xmi:type="uml:Class" href="BicycleChain.uml#_Pe3VALFEEeme559QxmclrQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DBwUAbbqEem12aEGjyR5NA" x="100" y="620"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_DCGSQLbqEem12aEGjyR5NA" type="Class_Shape">
+    <children xmi:type="notation:Shape" xmi:id="_DCGSQLbqEem12aEGjyR5NA" type="Class_Shape" fillColor="10265827">
       <children xmi:type="notation:DecorationNode" xmi:id="_DCGSQrbqEem12aEGjyR5NA" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_DCGSQ7bqEem12aEGjyR5NA" type="Class_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_DCGSRLbqEem12aEGjyR5NA" y="15"/>
